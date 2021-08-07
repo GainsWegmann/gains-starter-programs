@@ -11,8 +11,12 @@ Problems solved:
 	  
  2. If user chooses the "choose" branch then chooses a food type had to align restaurant choices nicely. I used string formatting 		such as \n and \t in order to align the choices.
 
-Features I'd like to add in an android application:
-1. Choose the food types randomly chosen by the application
-2. Google directions embedded within app
-3. Have a smooth wheel that randomly stops on one of the user's selected food types.
-4. Flow of the App: Startup>User chooses food types and confirms>Spins wheel with food types on it>Whatever type the wheel lands on, the app outputs the top 3-5 restaurants in the area with the best reviews>User can instantly get Google Maps directions to any of those restaurants or respin.
+textAdventure is a very simple console-based adventure application in progress. Right now I've implemented a Witch class for the user and a Combat interface. The interface's purpose is to make two attacks (and perhaps a defense and flee method) for each class. I am creating static Strings with getters to be implemented in the main method. I've created a Health integer which is updated after each interaction.
+
+Problems solved:
+1. Dealing with mistaken user inputs. If a user inputs something that doesn't match up with the options I move on with a quirky message and repeat the question using a switch method.
+
+Features planned:
+*Additional class, berserker
+*3 different enemy types
+*At least a flee method added to combat interface
